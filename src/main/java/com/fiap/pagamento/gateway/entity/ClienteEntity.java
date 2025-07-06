@@ -1,4 +1,4 @@
-package com.fiap.cliente.gateway.entity;
+package com.fiap.pagamento.gateway.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -25,7 +25,7 @@ public class ClienteEntity {
     private String cpf;
 
     private LocalDate dataNascimento;
-    private String rua;
-    private String numero;
-    private String cep;
+
+    @Embedded
+    private EnderecoEmbeddable endereco;
 }

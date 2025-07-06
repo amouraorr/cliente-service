@@ -1,9 +1,9 @@
-package com.fiap.cliente.gateway;
+package com.fiap.pagamento.gateway;
 
-import com.fiap.cliente.domain.Cliente;
-import com.fiap.cliente.mapper.ClienteMapper;
-import com.fiap.cliente.gateway.entity.ClienteEntity;
-import com.fiap.cliente.gateway.repository.ClienteRepository;
+import com.fiap.pagamento.domain.Cliente;
+import com.fiap.pagamento.mapper.ClienteMapper;
+import com.fiap.pagamento.gateway.entity.ClienteEntity;
+import com.fiap.pagamento.gateway.repository.ClienteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.fiap.cliente.domain;
+package com.fiap.pagamento.domain;
 
 import lombok.*;
 import java.time.LocalDate;
@@ -12,7 +12,5 @@ public class Cliente {
     private String nome;
     private String cpf;
     private LocalDate dataNascimento;
-    private String rua;
-    private String numero;
-    private String cep;
+    private Endereco endereco;
 }

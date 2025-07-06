@@ -1,6 +1,6 @@
-package com.fiap.cliente.gateway;
+package com.fiap.pagamento.gateway;
 
-import com.fiap.cliente.domain.Cliente;
+import com.fiap.pagamento.domain.Cliente;
 
 import java.util.List;
 import java.util.Optional;
