@@ -2,13 +2,14 @@ package com.fiap.cliente;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
+@ActiveProfiles("test")
 class ClienteServiceApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
 
-		ClienteServiceApplication.main(new String[] {});
 	}
 }
