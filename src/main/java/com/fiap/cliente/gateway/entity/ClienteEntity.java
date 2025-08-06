@@ -24,6 +24,7 @@ public class ClienteEntity {
     @Column(nullable = false, unique = true)
     private String cpf;
 
+    @Column(name = "datanascimento")
     private LocalDate dataNascimento;
 
     @Embedded
